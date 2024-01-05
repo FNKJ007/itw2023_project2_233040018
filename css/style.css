@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+  background-color: rgb(49, 47, 99);
+  font-family: 'Montserrat';
+}
+
+.container .navbar-brand {
+  font-family: 'Lemon', serif;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.navbar-nav li a {
+  font-family: 'Roboto', sans-serif;
+  font-size: larger;
+}
+
+.navbar-nav li a:hover {
+  color: rgb(222, 29, 29);
+}
+
+#location {
+  padding-top: 100px;
+}
+
+.map iframe {
+  width: 1320px;
+  height: 400px;
+  padding: 10px 20px;
+  margin-left: 10px;
+}
