@@ -34,3 +34,8 @@ body {
   padding: 10px 20px;
   margin-left: 10px;
 }
+
+.footer {
+  background-color: black;
+  padding: 10px;
+}
